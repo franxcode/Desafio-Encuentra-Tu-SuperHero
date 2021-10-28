@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+.superHeroLogoIMG {
+	border-radius: 50%;
+	max-width: 50px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.superHeroHeaderImageContainerClass {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.superHeroImageClass {
+	border-radius: 50%;
+}
+.searchMainInputTextBoxClass {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	fill: #fff;
+	outline: rgba(0, 0, 0, 0.5);
+}
+.searchMainSuperHeroButtonClass {
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+}
+.superHeroCardInformation {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.classForm {
+	display: flex;
+	align-items: baseline;
+}
+.hrSuperHeroFound {
+	border: 2px solid black;
+}
+.chartContainerClass {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.containerClass {
+	align-items: baseline;
+}
+.superHeroCard img {
+	min-width: 100%;
+}
+.superHeroCard h4 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.superHeroCard h5 {
+	font-size: 16px;
+	line-height: 2;
+	font-weight: bold;
+}
+.superHeroCard p {
+	font-size: 12px;
+}
+.superHeroCard ul {
+	font-size: 12px;
+}
