@@ -30,32 +30,31 @@
             </li>
         </div>
       </nav>
-      <div class="container containerClass my-5">
-          <div class="row">
-              <div class="col-md-6 superHeroHeaderImageContainerClass">
-                  <img src="assets/img/sh1.jpg" alt="SuperHero Title" class="superHeroImageClass">
-              </div>
-              <h1 class="text-center my-3">Encuentra tu SuperHero</h1>
-              <h4 class="text-center mb-3">Ingresa el n&uacute;mero del SuperHero a buscar</h4>
-              <form class="classForm" action="#">
-                  <input type="search" name="search" class="form-control searchClass me-3">
-                  <button type="submit" class="buttonSearch btn btn-primary my-3">Buscar</button>
-              </form>
-          </div>
-          <hr class="hrSuperHeroFound">
-          <div class="row my-3">
-              <div class="col-md-6 superHeroCard">
-              </div>
-              <div class="col-md-6 chartContainerClass">
-                <div id="chartContainer" style="height: 370px; width: 100%;"></div>
-              </div>
-          </div>
+      <h1 class="text-center my-3">Encuentra a tu SuperHero</h1>
+      <div class="container" id="containerHeroes">
+        <!-- Here goes heroesTablesTemplate content -->
       </div>
+      <template id="heroesTablesTemplate">
+        <section class="row">
+          <div class="col-md-4 col-sm-4 main-content">
+            <table class="table tableOneSuperHero">
+            </table>
+          </div>
+          <div class="col-md-4 col-sm-4 main-content">
+            <table class="table tableTwoSuperHero">
+            </table>
+          </div>
+          <div class="col-md-4 col-sm-4 main-content">
+            <table class="table tableThreeSuperHero">
+            </table>
+          </div>
+        </section>
+      </template>
     <!-- Bootstrap v5.1 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- CanvasJS -->
     <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
     <!-- My own JS -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/heroTable.js"></script>
 </body>
 </html>

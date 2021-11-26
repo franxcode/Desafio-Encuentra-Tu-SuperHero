@@ -74,3 +74,6 @@ body {
 .superHeroCard ul {
 	font-size: 12px;
 }
+tr[data-id] {
+	cursor: pointer;
+}

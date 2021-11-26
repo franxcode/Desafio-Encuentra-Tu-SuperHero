@@ -2,6 +2,8 @@
 	$(".classForm").on("submit", function (e) {
 		e.preventDefault();
 		const superHeroID = parseInt($(".searchClass").val());
+		let numero = document.querySelector('.searchClass').value;
+		console.log(numero);
 		if (isNaN(superHeroID)) {
 			return alert("Solo puedes ingresar numeros.");
 		}
